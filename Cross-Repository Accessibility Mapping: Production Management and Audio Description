@@ -1,0 +1,121 @@
+# Cross-Repository Accessibility Mapping: Production Management and Audio Description
+
+## Purpose
+
+This document maps the production-management framework in [Accessible Film, TV and Video Content Production Management](https://github.com/Double-FW/Accessible-Film-TV-and-Video-Content-Production-Management) to the editorial and production practices in [Audio Descriptions](https://github.com/Double-FW/Audio-Descriptions).
+
+It shows how to manage audio description (AD) as a versioned, resourced access workstream: choose an appropriate access route, brief the people doing the work, review it against the actual cut, and retain evidence for delivery and release decisions.
+
+This is a crosswalk, not a replacement for either repository’s guidance, a legal specification, or a claim that every programme requires a separate AD track.
+
+## Source documents
+
+- Production-management framework: [`AGENTS.md`](https://github.com/Double-FW/Accessible-Film-TV-and-Video-Content-Production-Management/blob/main/AGENTS.md) and [Accessible TV Content: Guidance for Production Teams](https://github.com/Double-FW/Accessible-Film-TV-and-Video-Content-Production-Management/blob/main/Accessible_TV_Content_Guidance_for_Production_Teams.md).
+- Audio Description guidance: [`README.md`](https://github.com/Double-FW/Audio-Descriptions/blob/main/README.md), [`AGENTS.md`](https://github.com/Double-FW/Audio-Descriptions/blob/main/AGENTS.md), and the [access-route decision](https://github.com/Double-FW/Audio-Descriptions/blob/main/docs/01-access-route.md), [production workflow](https://github.com/Double-FW/Audio-Descriptions/blob/main/docs/02-production-workflow.md), [editorial principles](https://github.com/Double-FW/Audio-Descriptions/blob/main/docs/04-ad-editorial-principles.md), [recording and delivery](https://github.com/Double-FW/Audio-Descriptions/blob/main/docs/06-recording-and-delivery.md), and [evaluation and QA](https://github.com/Double-FW/Audio-Descriptions/blob/main/docs/07-evaluation-and-qa.md).
+
+The production-management framework supplies the lifecycle, ownership, evidence, escalation and gate model. The Audio Descriptions repository supplies AD-specific route selection, editorial practice, production steps, evaluation and delivery checks.
+
+## Interpretation and boundaries
+
+1. **Determine the access route for each actual version.** Options include sufficient existing main audio, audio-first or integrated description, separate AD, a hybrid, an extended described version, or descriptive live commentary. A no-separate-AD decision requires a version-specific visual audit, listening evidence, independent review and named approval; genre or a transcript alone is not sufficient.
+2. **Preserve each source’s authority and strength.** Trace production controls to the production-management framework and AD practice to the Audio Descriptions guidance. Record whether an item is an external obligation, repository requirement, recommendation, or destination-specific profile. Do not silently elevate recommendations into universal requirements.
+3. **Keep the human decision with the authorised person.** An agent may analyse, draft, track and prepare a decision. It cannot provide human editorial approval, specialist review, audience evidence or release authority.
+4. **Evaluate the audience experience, not just the asset.** A completed script or delivered audio file does not establish that people can find, hear and use the described version.
+5. **Scope decisions to exact versions and destinations.** A recut, changed language, mix, platform or delivery route may invalidate prior evidence and require reassessment.
+
+## Requirement and process mapping
+
+| Production-management framework | Audio Description guidance | Combined production control and evidence |
+| --- | --- | --- |
+| **PM01 — Scope and limits; commission gate** | Commissioning brief and access-route decision | For each release variant, record audience, creative purpose, genre, language, territory, platform, duration, rights, current specifications and proposed access route. Identify unresolved visual gaps and who will decide them. |
+| **PM02 — Captions and SDH; PM03 — Audio description; PM05 — Signing; access planning** | Access-route decision and route-specific treatment | Select AD only where the visual audit identifies information or experience not conveyed through the soundtrack, or document why an alternative route provides access. Coordinate AD with captions, descriptive transcripts, signing and other relevant services; do not treat them as interchangeable. |
+| **PM08 — Production workflow and responsibility; R03–R05** | Production workflow and commissioning brief | Name the accountable producer, editorial lead, access lead/AD editor, writer, narrator, sound lead, QA reviewer and delivery owner as applicable. Resource research, scripting, review, rehearsal, recording, mixing, evaluation, correction and publication. Track briefs through acknowledgement, submission, review and acceptance. |
+| **PM04 — On-screen text and graphics; PM06 — Dialogue intelligibility and sound design** | Visual audit, radio-led scripting and AD editorial principles | Capture and verify graphics text, demonstrations, names, pronunciation, continuity, dialogue, music, significant effects, pauses and reveals. Use approved references for factual or practical information. Do not let AD mask essential speech or sound. |
+| **PM11 — Inclusive creative practice; pre-production gate** | Audio-first approach, integrated description and audience collaboration | Explore whether visual information can be communicated naturally in the main soundtrack, including during development and rehearsal. Involve Blind and partially sighted collaborators where appropriate. Preserve creative intent without forcing essential information into an impossible window. |
+| **PM03 — AD output; R06 — content and access requirements** | AD writing, performance and mix | Review the whole programme, map what the audience knows at each point, spot cues to the reference cut and protect dialogue, significant sound, silence and reveals. Description should be accurate, specific and appropriately expressive; it must not invent motives, identity or unsupported facts. |
+| **PM09 — Testing and review; R08 — QA and audience evaluation plan** | Editorial, technical and audience evaluation | Conduct editorial and technical review against the actual version. Evaluate information coverage, narrative knowledge, factual accuracy, practical instructions, sound protection, tone, pace, asset integrity, text coordination and published access. Plan proportionate audience evaluation; assess enjoyment separately from comprehension. |
+| **PM10 — Platform, format and metadata; R09–R10** | Recording and delivery; release record | Retrieve the current destination specification. Match programme/cut ID, runtime, frame rate, timecode, language, asset role, channel layout, captions and transcript versions. Validate the selected route on the actual player and supported devices. Do not assume a platform supports a stem or produces spoken AD from timed text. |
+| **PM12 — Pre-delivery checklist; R11 — release authority** | Blocking issues and release decisions | Hold release for unresolved blocking failures, including missing safety-critical information, material factual error, unintelligible story caused by omission, premature reveal, masked essential sound, or unusable delivery. Record the authorised decision and disposition of remaining issues. |
+| **PM13 — Retrieval relationships; PM14 — claims requiring current verification** | Source register and change triggers | Retrieve current commissioner/platform specifications, relevant rights and source decisions. Record what was reviewed and when. Recheck claims and requirements when territory, platform or specification changes. |
+| **R12–R13 — publication verification and archive** | Publication, maintenance and release-and-decision record | Separate delivery receipt from publication verification. Test discoverability, labels, controls, synchronisation, seeking and resumption. Archive the master, AD assets, scripts, cue sheets, captions/transcripts, specifications, evidence, rights references and change history together. |
+
+## Lifecycle workflow
+
+### 1. Commission and assess
+
+- Define the production matrix: programme and cut, audience, intended outcomes, language, territory, platform, genre and delivery profile.
+- Assign an accountable owner and qualified practitioners; reserve budget and schedule for the selected route and its review.
+- Audit the actual visual information against the soundtrack. Identify what listeners need to understand, do, feel or enjoy, and what remains unavailable through sound.
+- Record the proposed route, evidence, unresolved questions and decision owner. A no-separate-AD proposal remains a decision draft until the required human review and approval are recorded.
+
+**Evidence:** commissioning brief, applicable specifications, versioned visual audit, route rationale and named owners.
+
+### 2. Develop and produce
+
+- Review scripts, storyboards, graphics, demonstrations, sound plans and likely access needs early.
+- Consider audio-first or integrated approaches where they fit the creative work. Rehearse and listen without the picture; do not assume that dialogue makes the programme understandable.
+- Capture clean speech, useful location sound, continuity information, verified names and pronunciation, graphics text and relevant audio assets.
+- Provide the access team with a stable reference cut and explicitly track picture changes.
+
+**Evidence:** annotated script, rehearsal findings, production notes, asset inventory and reference-cut identity.
+
+### 3. Write, record and mix
+
+- Review the whole programme before writing individual cues. Map protected sound, audience knowledge, visual gaps, timing and reveals.
+- Spot and draft against the exact cut. Verify actions, names, numbers, labels, translations and practical procedures against suitable sources or subject specialists.
+- Record and mix for intelligibility while retaining dialogue, atmosphere, music and significant effects. Log takes and pickups against cue and script versions.
+- If a cue has no usable window, escalate the constraint and consider a different treatment, re-edit or supported extended version rather than masking essential speech.
+
+**Evidence:** versioned cue sheet and script, source references, review comments, recording and mix reports, and any corrections.
+
+### 4. Evaluate and accept
+
+Use complementary reviews:
+
+- **Editorial:** coverage, accuracy, tone, identity, uncertainty and reveal timing.
+- **Technical:** synchronisation, mix, asset/version match, delivery specification and playback.
+- **Audience:** understanding, effort, comfort and enjoyment for people who use the service.
+
+Record each finding with its version and timecode, evidence, audience consequence, owner, due date, release consequence and retest result. For a corrected cut or mix, reassess affected cues and evidence.
+
+### 5. Deliver, publish and maintain
+
+- Match all assets to the agreed cut, language, role and destination. Coordinate added narration with captions and descriptive transcripts.
+- Verify the actual published route and player, not only the delivered package. If publication access is unavailable, record verification as outstanding rather than treating it as passed.
+- Track audience feedback and platform issues. Reassess after recuts, graphics or language changes, revised mixes, platform changes or other defined triggers.
+- Archive the asset and evidence chain with appropriate rights, privacy and retention controls.
+
+## Gate evidence and failure handling
+
+An AD-related gate should be evaluated for the scoped version and destination. A pass requires relevant, current evidence and the authorised human decision; an unknown or missing item is not an implicit pass.
+
+At minimum, retain:
+
+- requirement and source references, applicability and responsible owner;
+- production, cut and asset identifiers, with version or digest where available;
+- selected access route and supporting audit;
+- brief, deliverables and designated reviewers;
+- review/test method, reviewer role, date, result and limitations;
+- open issues, exceptions, corrective owner, due date and retest;
+- release authority, publication test and archive reference.
+
+Escalate material factual uncertainty to the editorial lead or subject specialist; reveal or tone conflicts to the AD editor; rights questions to the rights owner; and timing, mix or delivery failures to the relevant post-production or platform owner. Hold the affected transition while preserving other authorised work.
+
+Exceptions must be explicit, bounded and approved by an authorised person. Record affected requirement and version, audience impact, reason, alternative access, evidence, owner, approval, expiry or review date and remediation. An exception is not evidence of full conformance.
+
+## Combined operating principles
+
+1. Manage AD as a funded and scheduled production workstream, not a last-minute file request.
+2. Do not require a separate AD track automatically; require a justified, reviewed route decision for each relevant version.
+3. Assess description against the actual picture and soundtrack. Scripts, transcripts, model output and file validation alone cannot establish completeness or audience access.
+4. Keep description accurate and respectful. Convey relevant emotion and tone without inventing internal states, motives or unsupported identity.
+5. Do not spoil information ahead of the programme’s intended disclosure.
+6. Treat creative, factual, technical and audience reviews as distinct evidence types.
+7. Reassess changed versions and verify the published experience.
+8. Keep sensitive audience and production information in approved restricted systems, not public issue records.
+
+## Summary
+
+The production-management repository supplies ownership, resourcing, version control, gates, escalation and release evidence. The Audio Descriptions repository supplies the access-route decision, AD editorial practice, production workflow, recording and mix guidance, evaluation and delivery records.
+
+Used together, they connect an early, evidence-based route decision to the final audience experience—while preserving human accountability and the creative purpose of the programme.
