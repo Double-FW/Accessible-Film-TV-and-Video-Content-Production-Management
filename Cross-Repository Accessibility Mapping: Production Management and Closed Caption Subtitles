@@ -1,0 +1,158 @@
+# Cross-Repository Accessibility Mapping:
+# Production Management and Closed Caption Subtitles
+
+## Purpose
+
+This document maps the operational and production-management requirements in the Accessible Film, TV and Video Content Production Management repository to the editorial, technical and governance requirements in the Closed Caption Subtitles repository.
+
+It provides a practical bridge between:
+- production governance, responsibilities and release gates
+- caption and subtitle authoring requirements
+- evidence-based QA and publication checks
+
+## Scope
+
+This mapping applies to:
+- video and audiovisual production
+- caption and subtitle creation
+- live and prerecorded content
+- multiple versions, territories, languages and platforms
+- AI-assisted production workflows
+
+## Repository relationship
+
+### 1. Production-management repository
+The production-management repository defines the operational model for accessible media production. It focuses on:
+- commissioning
+- responsibility assignment
+- briefing
+- version control and asset provenance
+- access-service planning
+- QA evidence
+- escalation and release gates
+- archive and publication verification
+
+### 2. Closed-caption repository
+The Closed Caption Subtitles repository defines the detailed technical and editorial requirements for captions. It focuses on:
+- speech and meaningful sound coverage
+- timing and synchronisation
+- speaker identification
+- line breaks and presentation
+- live captioning policy
+- player accessibility controls
+- file format and delivery profile selection
+- AI governance and human review obligations
+
+## Core mapping
+
+### A. Commissioning and audience definition
+| Production-management concept | Closed-caption equivalent | Relationship |
+| --- | --- | --- |
+| audience and territory matrix | CCS audience and platform profile | The production repo defines who the content is for and what access service is required; the caption repo defines the exact delivery profile for the caption track |
+| commissioner brief and output requirements | CCS required content and language profile | Caption scope depends on audience, platform, language and delivery profile |
+| access-service obligations and service targets | CCS as a required access service | CCS is one of the access services identified in production planning |
+
+### B. Production responsibility and workflow
+| Production-management concept | Closed-caption equivalent | Relationship |
+| --- | --- | --- |
+| accountable production owner | accessibility lead / QA owner | The production repo requires clear accountability; the caption repo assigns editorial and QA roles |
+| pre-production briefing | caption author and editor briefing | The caption track must be informed by scripts, names, glossary, timing context and final media |
+| production asset and version control | exact media version for captioning | CCS must be tied to the approved media version; version mismatch is not acceptable |
+| review and acceptance flow | editorial QA and technical validation | Production governance requires evidence; CCS guidance defines what acceptance looks like |
+
+### C. Capture and preparation
+| Production-management concept | Closed-caption equivalent | Relationship |
+| --- | --- | --- |
+| clean dialogue and sound assets | CCS coverage of meaningful audio | The caption repo requires accurate speech and meaningful sound coverage |
+| script, glossary and names | CCS review of names, terms and numbers | The caption repo requires checks against authoritative sources |
+| visual and graphics inventory | CCS protection of essential picture information | Assets must be checked to avoid captions obscuring key information |
+
+### D. Editorial and technical requirements
+| Production-management concept | Closed-caption equivalent | Relationship |
+| --- | --- | --- |
+| access-service review gate | CCS 001–033 editorial and technical requirements | The production repo ensures the work is reviewed at staged gates; the caption repo specifies the required quality |
+| timing and synchronisation | CCS 011–015 | The sync and reading-speed requirements are operational requirements that must be validated in the final media context |
+| speaker identification | CCS 016–018 | Production governance requires this to be tested and recorded; caption guidance defines the actual methods |
+| meaningful sound, music and lyrics | CCS 019–023 | Production planning must provide the required audio context for caption review |
+| readable presentation and contrast | CCS 024–027 | The production repo requires presentation checks before release |
+| live caption handling | CCS 028–030 | Live content requires the operational planning described in the production repo plus the live caption quality controls in the CCS repo |
+| format and delivery profile | CCS 031–033 | Production delivery requires a documented profile; the CCS repo defines valid format choices and validation requirements |
+| player control accessibility | CCS 13 | The production repo requires end-to-end publication verification; the caption repo specifies media-player requirements |
+
+### E. Quality assurance and release gates
+| Production-management concept | Closed-caption equivalent | Relationship |
+| --- | --- | --- |
+| gate-based verification | CCS section 14 | The production repo defines evidence-based gates; the caption repo provides the specific tests |
+| specialist QA and audience testing | CCS acceptance tests and audience outcome testing | Production management requires review and, where proportionate, disabled audience evaluation |
+| publication verification | CCS player and package validation | Captions are not considered delivered until the correct track is discoverable, labelled, and working in the target player |
+| release decision | CCS minimum acceptance criteria | The release gate is only valid when the caption asset passes the relevant acceptance rules |
+
+### F. AI-assisted production governance
+| Production-management concept | Closed-caption equivalent | Relationship |
+| --- | --- | --- |
+| human briefing and review | CCS section 15 | Both repositories require human review and traceable accountability for AI-assisted workflow steps |
+| evidence and audit trail | CCS section 15 machine-readable decision record | The production repo requires audit logs, records and escalation references; the CCS repo requires a review record |
+| prohibited AI behaviour | CCS section 15 prohibited AI behaviour | The production repo requires governance controls and accountable decision-making; the caption repo defines what AI systems must not do |
+| exception handling | CCS section 16 | Both repositories require explicit exception records, including affected requirement, audience impact, owner and corrective action |
+
+## Operational mapping by lifecycle stage
+
+### 1. Commissioning
+- Production repo: define audience, territory, platform, access obligations, budget and owner
+- CCS repo: define required caption track, language, delivery profile and requirements
+- Outcome: a production brief that includes captioning obligations before asset creation
+
+### 2. Pre-production
+- Production repo: identify dependencies, script issues, names, technology requirements and creative risks
+- CCS repo: check final audio, terminology, sound effects, speaker identification and timing risks
+- Outcome: a production brief and captioning specification aligned to the final media
+
+### 3. Production and post-production
+- Production repo: manage versioned assets, access-service briefs and reviewer sign-off
+- CCS repo: author, time and edit captions against final media
+- Outcome: a finished caption file validated against the media and target delivery profile
+
+### 4. QA and acceptance
+- Production repo: require evidence-based gate review
+- CCS repo: test editorial completeness, timing, file conformance, player operation, and audience outcome
+- Outcome: a caption track that is accepted under the caption guidance and the production governance model
+
+### 5. Publication and release
+- Production repo: require publication verification, open issues tracking and release authority
+- CCS repo: ensure the media player exposes the correct caption controls, the file is correctly labelled and the track remains functional after distribution
+- Outcome: a published access experience that works for the intended audience
+
+### 6. Archive and redelivery
+- Production repo: maintain asset provenance, access records and archive evidence
+- CCS repo: maintain format-specific delivery metadata and verification history
+- Outcome: a full audit trail from master to final published asset
+
+## Required controls when combining the repositories
+The combined framework should ensure:
+
+1. No caption track is treated as complete until the production management evidence is in place.
+2. No production access decision is valid without the corresponding caption quality evidence.
+3. All versions, languages and territories require a matching caption profile.
+4. Human review remains mandatory where meaning, editorial judgement or final publication decisions are involved.
+5. AI-assisted caption generation must be documented and reviewed.
+6. Exceptions and unresolved issues must be recorded with an owner, due date and remediation plan.
+7. Publication verification must confirm the real audience experience, not just file delivery.
+8. The final asset must be preserved with provenance, metadata, version history and audit evidence.
+
+## Summary
+The production-management repository provides the operational governance and evidence model. The Closed Caption Subtitles repository provides the detailed editorial, technical and accessibility rules for captions.
+
+Together, they form a coherent production ecosystem:
+- production planning and accountability
+- caption quality and delivery requirements
+- release gate validation
+- audience-facing access verification
+- AI governance and human accountability
+- end-to-end evidence retention
+
+## Recommended use
+This mapping should be used as:
+- a project planning reference
+- an internal cross-repository policy alignment document
+- a working checklist for production and caption QA teams
+- a source for AI workflows that need to convert production requirements into caption-access tasks
