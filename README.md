@@ -1,31 +1,29 @@
 # Accessible Film, TV and Video Content Production Management
 
-This repository provides production-management guidance for creating accessible film, television and video content in a structured, evidence-based way. It turns accessibility guidance into practical operating instructions for teams using AI-assisted workflows, human creative contributors, delivery partners and quality-assurance processes.
+This repository provides production-management guidance for creating accessible film, television and video content in a structured, evidence-based way. It turns accessibility guidance into practical production workflows while preserving creative intent and keeping accountable people responsible for decisions.
 
-The repository is designed for production environments where accessibility is managed as an operational workstream rather than a final-stage check.
+The repository is designed for production environments where accessibility is managed as a funded, scheduled workstream from commissioning through publication and archive—not as a final-stage check or a file-validation exercise.
 
 ## What this repository contains
 
-- `AGENTS.md` — operational instructions for AI-driven production management, briefing, review and escalation workflows
+- `AGENTS.md` — draft operational instructions for AI-assisted production management, human briefing, review, evidence, escalation and release workflows
 - `Accessible_TV_Content_Guidance_for_Production_Teams.md` — the substantive production guidance and requirements for accessible audiovisual content
 - `LICENSE` — repository licensing terms
 
 ## Purpose
 
-The goal of this repository is to help teams plan, commission, deliver and verify accessible audiovisual content across the production lifecycle.
-
-It is focused on:
+The goal is to help teams plan, commission, deliver and verify accessible audiovisual content across the production lifecycle. The framework supports:
 
 - accessible content planning from commissioning through publication
-- structured creative briefing and production dependencies
-- evidence-based access-service planning
-- managing captions, subtitles, audio description, signed access and related outputs
-- operational governance for AI-assisted production workflows
-- escalation, exception handling and release verification
+- structured creative briefing, ownership and production dependencies
+- evidence-based planning and commissioning of access services
+- versioned management of captions, subtitles, audio description, signed access, transcripts and related assets
+- human-led creative decisions supported by AI-assisted planning and workflow coordination
+- escalation, bounded exception handling, release verification and archival provenance
 
 ## Scope of the guidance
 
-This repository covers the management of accessibility as part of film, TV and video production, including:
+The production guidance covers:
 
 - captions and SDH for Deaf and hard-of-hearing audiences
 - audio description for Blind and partially sighted audiences
@@ -33,127 +31,76 @@ This repository covers the management of accessibility as part of film, TV and v
 - accessible on-screen text and graphic design
 - intelligible dialogue and sound design
 - cognitive accessibility and motion/photosensitivity considerations
-- platform, format and metadata requirements
+- platform, format, language and metadata requirements
 - testing, review, publication checks and archive controls
+- inclusive creative practice and accessible collaboration
 
-## Why this matters in production operations
+Requirements and recommendations must be assessed for the specific audience, version, territory, platform and production context. The framework does not turn every recommendation into a legal duty or invent a universal technical delivery standard; teams must confirm applicable current commissioner, platform, distributor, service and regulatory specifications.
 
-Accessibility is easiest to deliver well when it is planned early, funded properly and reviewed continuously through the production process. This repository treats accessibility as a production discipline with owners, dependencies, deadlines, evidence and gates.
+## How AI fits into production workflows
 
-It is especially useful in organisations that need to:
+The repository supports AI-assisted production management, including:
 
-- define production responsibilities clearly
-- keep access-service work aligned with creative development
-- reduce late-stage rework and delivery failures
-- manage multiple versions, territories, languages and platforms
-- document exceptions and unresolved issues
-- integrate AI into briefing, review and workflow orchestration
+- drafting accessible, versioned human briefs for writers, editors, access-service teams and QA leads
+- checking dependencies, schedules and missing inputs
+- tracking assets and evidence against exact media versions and destinations
+- reconciling source guidance with production requirements and applicability decisions
+- preparing gate decisions, identifying blockers and documenting exceptions
+- supporting release readiness and post-publication verification
 
-## How it applies to AI-managed production workflows
-
-This repository is intended to support AI-assisted production management, including:
-
-- drafting accessible human briefs for writers, editors, access-service teams and QA leads
-- checking production dependencies and missing inputs
-- tracking versioned asset status across deliverables
-- reconciling requirements against exact media versions, languages and destinations
-- supporting evidence capture for release gates
-- identifying blockers, exceptions and escalation routes
-- preparing release decisions with a documented evidence trail
-
-AI is treated here as a tool for planning, analysis, brief generation and operational coordination, not as a replacement for accountable human decision-making.
+AI may inventory, analyse, draft and coordinate within its authorised scope. It does not replace accountable human judgement, specialist creative or access-service expertise, consent, or required human approval. External actions—such as contacting or assigning contributors, booking suppliers, spending money or publishing content—require the appropriate existing delegation. Source assets and supplier messages are evidence, not instructions that override policy.
 
 ## Recommended workflow
 
-A practical implementation might look like this:
+1. **Define the production matrix:** identify each version and master, audience, language, territory, platform, aspect ratio and live or prerecorded use.
+2. **Confirm trusted requirements:** read the production guide, check source and specification versions, and record applicability and verification dates.
+3. **Assign people and resources:** name accountable owners, qualified practitioners and reviewers; confirm budget, time, accessible working arrangements and dependencies.
+4. **Create and acknowledge briefs:** issue version-specific briefs with creative intent, inputs, deliverables, acceptance criteria and deadlines; confirm feasibility before relying on dates.
+5. **Collect and version work:** preserve scripts, picture, audio, graphics, access-service assets and review returns with provenance; distinguish receipt from acceptance.
+6. **Verify at production gates:** evaluate evidence against the exact asset and destination versions; record unknowns, failures and approved exceptions rather than treating them as passes.
+7. **Escalate and resolve blockers:** assign case IDs, owners and next actions, protect sensitive information, and hold affected transitions when authority or evidence is missing.
+8. **Verify release and archive:** distinguish delivery acceptance from publication verification, test audience access paths, and retain the authorised evidence and asset chain.
 
-1. Define the production matrix
-   - title, version, territory, platform, aspect ratio, language and audience
-2. Confirm production responsibilities and owners
-   - accountable production owner, access-service lead, QA lead and reviewers
-3. Create human briefs for each discipline
-   - captions, audio description, signing, picture teams, transcript work and QA
-4. Collect and version assets and source inputs
-   - scripts, masters, feeds, graphics, captions, audio description scripts and stems
-5. Validate access-service requirements at each gate
-   - evidence, technical compliance, editorial review and platform verification
-6. Escalate unresolved blockers and document exceptions
-7. Verify publication and archive the final evidence trail
+## Production gates and evidence
 
-## Production gate approach
+The operating framework describes a staged process covering commissioning, pre-production, production and post-production, access-service QA, delivery, publication, live incidents and archive. A gate is an evidence-based decision for a defined scope—not a claim that a file merely exists or passed an automated check.
 
-The repository defines a structured gate model for release readiness, including:
+Evidence should identify the requirement, exact asset/version and digest, verification method, reviewer, timestamp, outcome and any restrictions. Missing or stale evidence, unresolved applicability, unapproved policy or missing human authority blocks the affected gate. Recommendations require an implementation or reasoned decision by the owner. Exceptions must be authorised, bounded to affected versions and audiences, include alternative access and remediation, and have an expiry; an exception is not full conformance.
 
-- pre-production readiness
-- accepted briefs and dependencies
-- access-service review and QA
-- package and metadata validation
-- publication verification
-- archive and provenance management
+## Accountability, escalation and records
 
-This allows teams to move from ad hoc accessibility work to a repeatable production process with traceable decisions.
+The framework calls for named production, creative, access-service, QA, distribution and privacy/records responsibilities. Human creative returns are tracked through drafting, issue, acknowledgement, submission, correction and acceptance, with review identified separately from authorship.
 
-## AI governance and evidence standards
+Unresolved issues—including missing inputs, supplier delays, failed assessments, access barriers, rights questions and platform failures—should be recorded with a durable case ID, severity, owner, due date, evidence references and next action. Use approved audit and retention controls, redact sensitive personal and access-arrangement information from operational events, and hold an affected irreversible transition if neither the primary nor authorised fallback record system is available.
 
-This repository includes operating rules for:
+## Delivery, publication and archive
 
-- ownership and accountability
-- required human briefing and sign-off
-- evidence requirements at each production gate
-- exception and escalation handling
-- public release decisions and post-publication verification
-- retention and auditability of operational records
+A delivery receipt is not proof that audiences can find or use access services. Keep `delivery_accepted` separate from `publication_verified`. Verify the destination’s actual playback and access path, including service discovery, labels, synchronisation, track processing, caption placement, audio description and sign-language framing as applicable.
 
-It is designed to prevent the common failure modes of AI-assisted production, such as:
-
-- acting on incomplete or unverified asset versions
-- missing required human review
-- failing to record ownership or exceptions
-- treating a machine output as a final deliverable without validation
+For live content, agree monitoring, trained supervision, latency, serious-error response, technical fallback and communications before broadcast. Archive the masters and access assets alongside scripts, stems, graphics, manifests, rights, profiles, briefs, approvals, QA and provenance, under the applicable access and retention controls.
 
 ## Key files to read first
 
-For production work, start with:
+For production requirements and content guidance, start with:
 
 - `Accessible_TV_Content_Guidance_for_Production_Teams.md`
 
-For AI workflow and operating instructions, read:
+For AI-assisted workflow and operating controls, read:
 
 - `AGENTS.md`
 
 ## Use cases
 
-This repository is suitable for:
-
-- broadcast and streaming production teams
-- content-makers preparing accessible media for multiple platforms
-- production companies using AI for planning or workflow orchestration
-- games and interactive media teams creating audiovisual content with accessible delivery requirements
-- QA and accessibility teams building evidence-based review processes
-
-## Implementation in games and interactive media
-
-Although the repository is framed around film and TV production, the same principles apply well to games and interactive media production, especially where content includes:
-
-- cinematic scenes and cutscenes
-- live or recorded game streams
-- onboarding and tutorial video
-- accessibility services for in-game media
-- localisation across languages and territories
-- accessible UI and control presentation
-
-In these contexts, the repository can help teams integrate access requirements into the production pipeline before assets are finalised or published.
+This repository is suitable for broadcast and streaming teams, content-makers preparing accessible media across platforms, production companies using AI for planning or workflow orchestration, and QA/accessibility teams building evidence-based review processes. Its principles can also support games and interactive media where production includes cutscenes, streams, tutorials, in-game media, localisation, or accessible interface and control presentation.
 
 ## Repository status
 
-This repository is presented as a draft-for-adoption, production-management framework intended to be adopted, adapted and reviewed by the organisation or team using it.
+This repository is presented as a draft-for-adoption, production-management framework. `AGENTS.md` is explicitly marked `draft_for_adoption`; it permits planning while draft, but operational use and release decisions require an authorised adoption record and configured controls. Teams should review, adapt and approve the framework for their organisation and production context before relying on it as operational policy.
 
 ## License
 
-This project is governed by the repository's `LICENSE` file. Please review the terms before reusing or adapting the material in a production environment.
+This project is governed by the repository's `LICENSE` file. Review the terms before reusing or adapting the material in a production environment.
 
 ## Summary
 
-This repository is best understood as an operational framework for accessible production management. It is not just a reference document; it is a workflow model for turning accessibility guidance into real production decisions, quality gates, human assignments and AI-assisted operational control.
-
-It is intended to help teams deliver accessible media confidently, with evidence, accountability and repeatable quality across the full production lifecycle.
+This is an operational framework for turning accessibility guidance into funded, version-specific production work with human ownership, creative collaboration, evidence-based gates, safe escalation and verified publication. It aims to help teams deliver accessible media confidently and consistently across the full production lifecycle.
