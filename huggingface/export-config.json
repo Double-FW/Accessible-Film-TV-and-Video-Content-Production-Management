@@ -1,0 +1,35 @@
+{
+  "source_repository": "Double-FW/Accessible-Film-TV-and-Video-Content-Production-Management",
+  "destination_dataset": "GarethFW/Accessible_Film_TV_and_Video_Content_Production_Management",
+  "source_files": [
+    "AGENTS.md",
+    "Accessible-Film-TV-and-Video-Content-RAG-and-Prompts/Content_Creation_and_Production_Activities_and_Prompts.md",
+    "Accessible-Film-TV-and-Video-Content-RAG-and-Prompts/RAG_Reference.md",
+    "Accessible-Film-TV-and-Video-Content-RAG-and-Prompts/README.md",
+    "Accessible-Film-TV-and-Video-Content-RAG-and-Prompts/Source_Coverage.md",
+    "Accessible_TV_Content_Guidance_for_Production_Teams.md",
+    "CHANGELOG.md",
+    "LICENSE",
+    "NOTICE.md",
+    "Production_Workflow_and_Handoff_Map.md",
+    "Production_and_Audio_Description_Mapping.md",
+    "Production_and_Captions_Mapping.md",
+    "Public_Source_Routing.md",
+    "README.md",
+    "Terminology_Alignment.md",
+    "public-repository-links.json",
+    "scripts/check_documentation.py"
+  ],
+  "document_files": [
+    "README.md",
+    "AGENTS.md",
+    "Accessible_TV_Content_Guidance_for_Production_Teams.md",
+    "Production_Workflow_and_Handoff_Map.md",
+    "Production_and_Audio_Description_Mapping.md",
+    "Production_and_Captions_Mapping.md",
+    "Terminology_Alignment.md",
+    "Public_Source_Routing.md",
+    "NOTICE.md"
+  ],
+  "approved_license_sha256": "718328364da5d7ba8e2fe2b00e16126f46714ef2d2e9d16b04cf2706d48142f1"
+}

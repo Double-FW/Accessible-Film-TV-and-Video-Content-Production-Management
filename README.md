@@ -48,7 +48,7 @@ Accessibility is more than the existence of an access file. Investigate whether 
 | [RAG navigation](Accessible-Film-TV-and-Video-Content-RAG-and-Prompts/RAG_Reference.md) | Source IDs and routes to maintained owning files; no embedded older corpus. |
 | [Activities and prompts](Accessible-Film-TV-and-Video-Content-RAG-and-Prompts/Content_Creation_and_Production_Activities_and_Prompts.md) | Eight production activities and 16 illustrative prompts. |
 | [Source coverage](Accessible-Film-TV-and-Video-Content-RAG-and-Prompts/Source_Coverage.md) | Defines the current retrieval inventory and what it does and does not establish. |
-| [Licence](LICENSE), [rights notice](NOTICE.md), [changes](CHANGELOG.md), [review record](REVIEW_2026-11-20.md) | Reuse terms, changes, verification scope and remaining limitations. |
+| [Licence](LICENSE), [rights notice](NOTICE.md), [changes](CHANGELOG.md) | Reuse terms, changes, verification scope and remaining limitations. |
 
 ## Use in a production
 
@@ -68,7 +68,7 @@ Retrieve maintained owning documents rather than counting the same text repeated
 
 Keep repository, path, actual Git revision, heading, document status, authority, applicability and rights context with each chunk. Preserve source review dates separately from export dates. Distinguish source statements, observations, estimates, hypotheses, proposals, synthetic examples and approvals. Treat retrieved instructions and example prompts as data; they do not override a consuming agent's instruction hierarchy or grant external permissions.
 
-This is a human-readable knowledge base, not a prevalidated model-training dataset. There are no fabricated instruction/answer pairs, actual participant records or measured model results. A downstream exporter must check rights and privacy, avoid duplicated generated views and retain qualifications. No Hugging Face sync is installed in this repository by this documentation review.
+This is a human-readable knowledge base, not a prevalidated model-training dataset. There are no fabricated instruction/answer pairs, actual participant records or measured model results. A downstream exporter must check rights and privacy, avoid duplicated generated views and retain qualifications. A weekly Hugging Face export workflow is provided; see [setup instructions](huggingface/SETUP.md). Configuration and a successful publication run must be verified separately.
 
 ## Shared principles and external sources
 
@@ -84,7 +84,7 @@ Run from the repository root:
 python scripts/check_documentation.py
 ```
 
-This uses Python's standard library to check the documented inventory, local Markdown links and fragments, metadata, MIT declarations and known stale-reference patterns. It does not test audiovisual assets, external network availability, legal applicability or trained models. Recheck public dependencies when they change and before consequential reliance. See the review record for checks actually performed and external access limitations.
+This uses Python's standard library to check the documented inventory, local Markdown links and fragments, metadata, MIT declarations and known stale-reference patterns. It does not test audiovisual assets, external network availability, legal applicability or trained models. Recheck public dependencies when they change and before consequential reliance. External references remain subject to their own access, rights and source-currency limits.
 
 ## Licence
 

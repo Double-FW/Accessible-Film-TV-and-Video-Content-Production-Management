@@ -7,7 +7,7 @@ import unicodedata
 from urllib.parse import unquote,urlsplit
 
 ROOT=Path(__file__).resolve().parents[1]
-REQUIRED=('README.md','AGENTS.md','LICENSE','NOTICE.md','Terminology_Alignment.md','Public_Source_Routing.md','public-repository-links.json','Accessible_TV_Content_Guidance_for_Production_Teams.md','Production_Workflow_and_Handoff_Map.md','Production_and_Audio_Description_Mapping.md','Production_and_Captions_Mapping.md','CHANGELOG.md','REVIEW_2026-11-20.md')
+REQUIRED=('README.md','AGENTS.md','LICENSE','NOTICE.md','Terminology_Alignment.md','Public_Source_Routing.md','public-repository-links.json','Accessible_TV_Content_Guidance_for_Production_Teams.md','Production_Workflow_and_Handoff_Map.md','Production_and_Audio_Description_Mapping.md','Production_and_Captions_Mapping.md','CHANGELOG.md')
 PACK='Accessible-Film-TV-and-Video-Content-RAG-and-Prompts'
 
 def anchors(text):

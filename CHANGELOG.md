@@ -11,3 +11,7 @@
 - Removed editorial processing commentary from the production guidance; preserved relevant historical context. Replaced the BFI link that returned a gateway error with BBC R&D WHP 411 and clarified the June 1952 programme date from its section 4.
 - Retained MIT as the sole repository licence, identified Double FW Ltd in the copyright notice and added a third-party rights/status notice without imposing a second licence.
 - Added a local documentation checker and a review record describing what was checked and what remains unverified. No HF publisher or production agent was installed.
+
+## Weekly dataset publication setup
+
+Added guarded manual/weekly export to the named media-production dataset with exact document preservation, eight activities/16 illustrative prompts and source provenance. Removed dangling README/checker dependencies on the deliberately deleted review report. No production policy adoption or live HF publication is asserted by this setup.
