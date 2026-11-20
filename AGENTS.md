@@ -148,3 +148,7 @@ Run `python scripts/check_documentation.py` after editing. It checks the local d
 - **1.2.0 — 2026-11-20 — Draft for adoption.** Added terminology provenance, scoped evidence states, retrieval and prompt-injection boundaries, public-source rules, output requirements and documentation checks. No organisational adoption or product evaluation is asserted.
 - **1.1.0 — 2026-11-07 — Draft for adoption.** Clarified repository-agent versus production-agent scope; removed unimplemented runtime contracts and unsupported operational assumptions; defined authority, evidence, decision states, escalation and repository change expectations.
 - **1.0.0 — 2026-10-13 — Draft for adoption.** Introduced production-management instructions mapped to the accessible TV production guidance.
+
+## Dataset publication maintenance
+
+The [weekly publisher](huggingface/SETUP.md) exports explicitly selected committed source material to one fixed dataset. Preserve source revisions, authority and draft labels, original verification dates and MIT/third-party rights qualifications. Navigation indexes and maintenance records are not independent substantive guidance records. After changing export logic, run the documentation checker and publisher regression tests. Keep token access confined to the publishing step. Report configuration and actual successful publication separately; no structural check establishes production, legal or model effectiveness.
