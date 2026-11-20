@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0",
+  "checked_on": "2026-11-20",
+  "method": "GitHub repository API: full_name, private=false and visibility=public",
+  "scope": "Repository visibility only. Not permanent availability, legal currency, content validation or third-party reuse permission.",
+  "repositories": [
+    {
+      "repository": "Double-FW/Terminology-and-Principles",
+      "url": "https://github.com/Double-FW/Terminology-and-Principles",
+      "visibility": "public",
+      "checked_on": "2026-11-20"
+    },
+    {
+      "repository": "Double-FW/Accessible-Film-TV-and-Video-Content-Production-Management",
+      "url": "https://github.com/Double-FW/Accessible-Film-TV-and-Video-Content-Production-Management",
+      "visibility": "public",
+      "checked_on": "2026-11-20"
+    },
+    {
+      "repository": "Double-FW/Audio-Descriptions",
+      "url": "https://github.com/Double-FW/Audio-Descriptions",
+      "visibility": "public",
+      "checked_on": "2026-11-20"
+    },
+    {
+      "repository": "Double-FW/Closed-Caption-Subtitles",
+      "url": "https://github.com/Double-FW/Closed-Caption-Subtitles",
+      "visibility": "public",
+      "checked_on": "2026-11-20"
+    },
+    {
+      "repository": "Double-FW/Accessible_Digital_and_Printed_Documents",
+      "url": "https://github.com/Double-FW/Accessible_Digital_and_Printed_Documents",
+      "visibility": "public",
+      "checked_on": "2026-11-20"
+    },
+    {
+      "repository": "Double-FW/Accessible-Email-Design",
+      "url": "https://github.com/Double-FW/Accessible-Email-Design",
+      "visibility": "public",
+      "checked_on": "2026-11-20"
+    },
+    {
+      "repository": "Double-FW/The-Audiovisual-Media-Services-Directive-AVMSD-",
+      "url": "https://github.com/Double-FW/The-Audiovisual-Media-Services-Directive-AVMSD-",
+      "visibility": "public",
+      "checked_on": "2026-11-20"
+    },
+    {
+      "repository": "Double-FW/European-Accessibility-Act-EAA-Compliance-Approach",
+      "url": "https://github.com/Double-FW/European-Accessibility-Act-EAA-Compliance-Approach",
+      "visibility": "public",
+      "checked_on": "2026-11-20"
+    },
+    {
+      "repository": "Double-FW/Global_Accessiblity_Regulatory_Requirements",
+      "url": "https://github.com/Double-FW/Global_Accessiblity_Regulatory_Requirements",
+      "visibility": "public",
+      "checked_on": "2026-11-20"
+    },
+    {
+      "repository": "Double-FW/QA_Accessibility_Testing",
+      "url": "https://github.com/Double-FW/QA_Accessibility_Testing",
+      "visibility": "public",
+      "checked_on": "2026-11-20"
+    },
+    {
+      "repository": "Double-FW/Data_Ethics_and_Disability",
+      "url": "https://github.com/Double-FW/Data_Ethics_and_Disability",
+      "visibility": "public",
+      "checked_on": "2026-11-20"
+    },
+    {
+      "repository": "Double-FW/Cognitive-UX-Design",
+      "url": "https://github.com/Double-FW/Cognitive-UX-Design",
+      "visibility": "public",
+      "checked_on": "2026-11-20"
+    },
+    {
+      "repository": "Double-FW/POUR-for-Branding-Systems-and-CX",
+      "url": "https://github.com/Double-FW/POUR-for-Branding-Systems-and-CX",
+      "visibility": "public",
+      "checked_on": "2026-11-20"
+    }
+  ]
+}

@@ -7,10 +7,12 @@ document_type:
   - "practitioner_guide"
   - "television_accessibility_guidance"
   - "production_workflow_guidance"
-content_status: "author_guidance_with_editorial_diagnostics"
+content_status: "practitioner_guidance_for_contextual_adoption"
+license: "MIT"
+last_editorial_review: "2026-11-20"
 date_published: null
 date_processed: "2026-09-17"
-version: "1.1-semantic"
+version: "1.2-semantic"
 jurisdictional_context:
   - "United Kingdom"
   - "international"
@@ -67,16 +69,6 @@ source_characteristics:
   jurisdiction_specific_requirements_incomplete: true
   independently_peer_reviewed: false
   legal_advice: false
-editorial_treatment:
-  - "Added YAML metadata and semantic headings."
-  - "Normalised paragraphs, lists, terminology and typographical errors."
-  - "Preserved the article's production-led and inclusive intent."
-  - "Distinguished subtitles, captions and language subtitles."
-  - "Qualified the claim that audio description must always use neutral language."
-  - "Added cognitive accessibility, photosensitivity, dialogue intelligibility, transcripts and player considerations."
-  - "Separated production-team controls from broadcaster, platform and regulatory responsibilities."
-  - "Restored and clarified the BBC's pre-1979 accessibility history, including early signed television for Deaf audiences, programming for Deaf children, and support for the British Wireless for the Blind Fund."
-  - "Added provenance, diagnostics and AI-ingestion guidance."
 ai_ingestion_guidance:
   - "Treat this document as production guidance, not as a universal technical delivery specification or legal opinion."
   - "Retrieve the current broadcaster, commissioner, platform, territory and distributor specifications before delivery."
@@ -197,7 +189,7 @@ Monitor:
 
 ## 2. Audio description for Blind and partially sighted audiences
 
-Audio description is an additional narrative track that communicates visual information needed to follow or appreciate the programme.
+Audio description (AD) communicates relevant visual information through spoken description within the programme experience. It may be integrated into the main soundtrack or provided through a separate or extended described version. A separate track is one delivery route, not the definition of AD. Audit the actual picture and sound, check applicable requirements and record the version-specific route decision with qualified review; genre, dialogue density or a transcript alone is not sufficient.
 
 ### What to describe
 
@@ -215,8 +207,6 @@ Depending on context, description may cover:
 Not every visible detail needs to be described. Prioritise information that supports comprehension, character, atmosphere and the creative intention.
 
 ### Writing approach
-
-The original article advised using “clear and neutral language, avoiding interpretation or emotion.” That is too absolute.
 
 Description should be accurate and should not claim access to a character's thoughts. However, it may describe visibly evident emotion, performance, style and atmosphere. The vocabulary, rhythm and narrator performance should fit the genre and programme without competing with it.
 
@@ -317,7 +307,7 @@ This does not require flat or uncreative sound. It requires deliberate choices a
 
 ## 6. Cognitive access, motion and photosensitivity
 
-The original guidance focused mainly on sensory access. Inclusive production should also consider cognitive, neurological and seizure-related barriers.
+Inclusive production should consider cognitive, neurological and seizure-related barriers alongside sensory access.
 
 ### Cognitive access
 
@@ -341,7 +331,9 @@ Identify flashing, rapid patterns and intense motion early enough for editorial 
 
 Accessibility should be an owned production workstream rather than an unfunded final delivery task.
 
-| Stage | Required actions | Evidence to retain |
+These are recommended coordination activities, tailored to adopted requirements and the exact production. The table does not impose every access service on every release.
+
+| Stage | Coordination activities | Evidence to retain |
 |---|---|---|
 | Development and commissioning | Define audiences, access services, territories, platforms, budget, schedule and accountable owner | Accessibility brief, commissioner specification, responsibility map |
 | Pre-production | Review scripts, graphics, planned text, sign-language needs, descriptive opportunities and photosensitivity risks | Script notes, design decisions, access-service plan |
@@ -441,6 +433,8 @@ Creative access still needs a functional check. A visually inventive caption or 
 
 ## Minimum pre-delivery checklist
 
+Apply each item to the scoped version and actual requirements. Record not applicable with a reason; leave unperformed checks not tested. A representative pre-release playback check does not establish post-publication success.
+
 - [ ] Access-service obligations and target audiences are documented.
 - [ ] Commissioner, broadcaster and platform specifications are current.
 - [ ] Required subtitle, AD, signed and transcript versions are complete.
@@ -449,9 +443,10 @@ Creative access still needs a functional check. A visually inventive caption or 
 - [ ] Graphics do not collide with subtitles or signers.
 - [ ] Flashing and motion have been assessed using the required method.
 - [ ] Every asset has the correct programme ID, language, role and accessibility metadata.
-- [ ] Published playback or a representative end-to-end path has been tested.
+- [ ] A representative pre-release end-to-end path has been tested.
+- [ ] Post-publication playback verification has an owner and plan; its result is recorded separately when performed.
 - [ ] Disabled audience feedback has been considered where proportionate.
-- [ ] Known limitations, waivers and corrective actions are recorded.
+- [ ] Known limitations, permitted and authorised exceptions, and corrective actions are recorded; no local waiver is assumed to remove an external obligation.
 - [ ] Masters, access assets, rights and provenance are archived together.
 
 ## Summary
@@ -464,11 +459,11 @@ The practical instruction is simple:
 
 ## A note on BBC history
 
-An earlier diagnostic edition of this document incorrectly treated the source article's reference to BBC accessibility work in the 1950s as unsupported. That conclusion was too narrow: it considered the later histories of broadcast subtitling and audio description but overlooked the BBC's earlier work with signed and visually designed programmes for Deaf audiences.
+The BBC’s accessibility work predates teletext subtitles. This historical context recognises earlier signed and visually designed programming alongside later access services; it does not establish current production requirements.
 
-The terminology used in historical records is inconsistent, and early output does not map neatly onto today's distinction between sign-interpreted and sign-presented programmes. The evidence nevertheless establishes a substantially earlier history:
+The terminology used in historical records is inconsistent, and early output does not map neatly onto today's distinction between sign-interpreted and sign-presented programmes. The sources listed below document this earlier history; verify precise dates and attribution against the relevant source when reusing individual claims:
 
-- *For Deaf Children* began in 1952–53. The monthly BBC programme was created specifically for Deaf children and incorporated captions, mime and signing as its format developed. It is an early example of British television designed for a Deaf audience and predates *See Hear* by almost three decades;
+- *For Deaf Children* first aired in June 1952, as described in BBC R&D White Paper WHP 411, section 4. The monthly BBC programme was created specifically for Deaf children and incorporated captions, mime and signing as its format developed. It is an early example of British television designed for a Deaf audience and predates *See Hear* by almost three decades;
 - during the 1950s the BBC experimented with both interpreted and directly presented signed content for Deaf audiences, although surviving catalogues and later histories do not always label the two forms consistently;
 - *Vision On* began in 1964 as the successor to *For Deaf Children*. It was designed for Deaf children, used signing and mime, and adopted a strongly visual, largely speech-free format that also attracted a wider children's audience;
 - the first BBC teletext subtitles in 1979;
@@ -499,11 +494,11 @@ When this document is used in an AI knowledge system, retrieve it alongside:
 
 - [Ofcom Code on Television Access Services and best-practice guidance](https://www.ofcom.org.uk/tv-radio-and-on-demand/accessibility/tv-access-services)
 - [W3C WAI: Making Audio and Video Media Accessible](https://www.w3.org/WAI/media/av/)
-- [BFI Screenonline: *Vision On* and its predecessor *For Deaf Children*](https://www.screenonline.org.uk/tv/id/572564/index.html)
-- [Ilana R. Emmett, “To Educate and Inform: A History of Television for Deaf Audiences on the BBC”](https://www.jstor.org/stable/27395720)
+- [BBC R&D WHP 411: A Brief History of Closed Signing, section 4](https://downloads.bbc.co.uk/rd/pubs/whp/whp-pdf-files/WHP411.pdf)
+- [Ilana R. Emmett, “To Educate and Inform: A History of Television for Deaf Audiences on the BBC”](https://www.jstor.org/stable/27395720) — supplementary historical research; full text may require access.
 - [Visably: history of the British Wireless for the Blind Fund](https://www.visably.org.uk/about-us/our-history/)
 - [Visably: the BBC-broadcast 1929 fundraising appeal](https://www.visably.org.uk/about-us/news-blogs/a-piece-of-bwbf-history/)
-- [BBC Year Book 1931: BBC representation on the fund's committee and the 1929 appeal](https://www.worldradiohistory.com/UK/BBC/BBC-Annual/BBC-Year-Book-1931.pdf)
+- [BBC Year Book 1931: BBC representation on the fund's committee and the 1929 appeal](https://www.worldradiohistory.com/UK/BBC/BBC-Annual/BBC-Year-Book-1931.pdf) — archived scan; automated access returned 403 during the 20 November 2026 review, so full-text verification remains outstanding for reuse of these details.
 - [UK Parliament record on the 1994 AUDETEL project](https://api.parliament.uk/historic-hansard/written-answers/1994/jun/27/audio-description-services)
 - [UK Parliament evidence on BBC access-service history](https://publications.parliament.uk/pa/cm199900/cmselect/cmcumeds/25/9120710.htm)
 
@@ -521,3 +516,7 @@ Before relying on this guide for commissioning, compliance or delivery, verify:
 - photosensitivity test methods and warning requirements;
 - whether automated tools are approved and what human review is required; and
 - any historical “first,” leadership or institutional-attribution claim.
+
+## Related guidance and terminology
+
+Use the [public source routing guide](Public_Source_Routing.md) for specialist and regulatory context and the [terminology alignment](Terminology_Alignment.md) for scoped meanings and evidence states. These resources do not replace current primary requirements or a production-specific applicability decision.
