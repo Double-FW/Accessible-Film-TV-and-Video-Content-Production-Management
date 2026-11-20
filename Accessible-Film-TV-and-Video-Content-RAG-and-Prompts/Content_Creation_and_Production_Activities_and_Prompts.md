@@ -1,26 +1,26 @@
 # Accessible Film, TV and Video Content Production Management: human-managed content creation and production activities and prompts
 
-**Prepared:** 8 November 2026 · **Source revision:** `9f9a157270f9087c59b2ab17b54fc166a76d9d7e`  
-**Source:** [Double-FW/Accessible-Film-TV-and-Video-Content-Production-Management](https://github.com/Double-FW/Accessible-Film-TV-and-Video-Content-Production-Management/tree/9f9a157270f9087c59b2ab17b54fc166a76d9d7e)  
+**Editorially updated:** 20 November 2026. Use the actual checked-out or retrieved Git revision for source citations.
+**Source:** [maintained repository overview](../README.md). The RAG is now navigation rather than an embedded historical corpus.
 **Audience:** authors, editors, designers, publishers, communication teams, producers, commissioners, access-service practitioners and technical/quality partners.
 
 ## Where the repository is useful
 
 Use this repository to commission and coordinate accessible audiovisual productions across creative development, filming, post-production, access services, technical delivery, audience review and archive. The main production guide and two cross-repository maps clarify how producers work with caption and audio-description specialists rather than treating accessibility as a late file order.
 
-The main guide is practitioner guidance with editorial diagnostics, historical claims and incomplete jurisdiction-specific applicability. The AGENTS production workflow is a draft for local adoption, not an operating production agent or automatic gate system. Source requirements and example mappings must be tailored to exact cut, language, destination, territory and audience. Keep receipt, validation, human acceptance and published playback verification separate.
+The main guide is practitioner guidance with historical context and incomplete jurisdiction-specific applicability. The AGENTS production workflow is a draft for local adoption, not an operating production agent or automatic gate system. Source requirements and example mappings must be tailored to exact cut, language, destination, territory and audience. Keep receipt, validation, human acceptance and published playback verification separate.
 
 The activities below are an editorial application of the repository, not a claim that it already contains a complete organisational process. AI can organise material, draft options and scripts, identify inconsistencies and prepare specifications or evidence summaries. Authors and editors preserve factual meaning and editorial intent. Designers and technical practitioners implement and verify delivered formats. Qualified access-service specialists review their work, and affected audiences inform the experience. Accountable publishers/producers retain creative, acceptance, rights and release decisions. Assign these responsibilities to actual people locally; the examples do not establish a new team or approval body.
 
 ## How to use the prompts
 
-1. Attach [RAG_Reference.md](RAG_Reference.md). For selective retrieval, use the source routes below and [Source_Coverage.md](Source_Coverage.md).
+1. Read [RAG_Reference.md](RAG_Reference.md), then supply or retrieve the relevant owning documents linked from it. The index alone does not contain them. Use [Source_Coverage.md](Source_Coverage.md) for the route inventory.
 2. Replace bracketed inputs with the actual project brief, artefacts and evidence. Supply the target task, audience, platform/setting, constraints and intended decision. Treat missing information as unknown.
-3. Use either example prompt for the activity. Both refer to this folder’s reference. Supply only appropriate project information; use anonymised research findings where possible.
+3. Use either example prompt for the activity. Both use this folder’s index and the relevant retrieved source files. Supply only appropriate project information; use anonymised research findings where possible.
 4. Require source ID, filename and original section citations; distinguish source guidance, local proposal, observed result and uncertainty. Ask for evidence requests where an artefact cannot be inspected.
 5. Review the result with the named human roles and record decisions. A prompt output is a draft editorial/production aid, not implementation or evidence that a test ran. Do not defer disabled people’s involvement until final testing.
 
-**Reusable response contract:** “Use the attached RAG_Reference.md as the knowledge source. Cite source IDs, files and sections. Distinguish source statements, project evidence, recommendations and unknowns. Preserve applicable source identifiers. Do not invent research, capability, approvals or test results. Give a concrete content/production artefact, trade-offs, evidence requests and decisions for the human team.”
+**Reusable response contract:** “Use RAG_Reference.md to locate the maintained owning source files, and use only source content actually supplied or retrieved. If a file is unavailable, state the missing input. Cite source IDs, files and sections. Distinguish source statements, project evidence, recommendations and unknowns. Preserve applicable source identifiers. Do not invent research, capability, approvals or test results. Give a concrete content/production artefact, trade-offs, evidence requests and decisions for the human team.”
 
 ## Activity map
 
@@ -55,7 +55,7 @@ The activities below are an editorial application of the repository, not a claim
 
 ### Example prompt 1
 
-> Use the attached RAG to commission [production and intended releases]. Define audience, creative purpose, cut/version, languages, territories, aspect ratios, live/prerecorded status and destinations. Plan required access routes, specialist input, schedule, resource questions and acceptance evidence. Leave current platform or regulatory requirements unverified until supplied or checked.
+> Use the RAG index and the retrieved owning documents to commission [production and intended releases]. Define audience, creative purpose, cut/version, languages, territories, aspect ratios, live/prerecorded status and destinations. Plan required access routes, specialist input, schedule, resource questions and acceptance evidence. Leave current platform or regulatory requirements unverified until supplied or checked.
 
 ### Example prompt 2
 
@@ -65,7 +65,7 @@ The activities below are an editorial application of the repository, not a claim
 
 **Production stage:** Treatment development and editorial planning
 
-**Retrieve:** [S001 — Accessible_TV_Content_Guidance_for_Production_Teams.md](RAG_Reference.md#s001); [S004 — Cross-Repository Accessibility Mapping: Production Management and Audio Description](RAG_Reference.md#s004).
+**Retrieve:** [S001 — Accessible_TV_Content_Guidance_for_Production_Teams.md](RAG_Reference.md#s001); [S004 — Production_and_Audio_Description_Mapping.md](RAG_Reference.md#s004).
 
 **Relevant source sections:** Section 2; Production/AD mapping: commission and assess.
 
@@ -117,7 +117,7 @@ The activities below are an editorial application of the repository, not a claim
 
 **Production stage:** Production and live planning
 
-**Retrieve:** [S001 — Accessible_TV_Content_Guidance_for_Production_Teams.md](RAG_Reference.md#s001); [S005 — Cross-Repository Accessibility Mapping: Production Management and Closed Caption Subtitles](RAG_Reference.md#s005); [S003 — AGENTS.md](RAG_Reference.md#s003).
+**Retrieve:** [S001 — Accessible_TV_Content_Guidance_for_Production_Teams.md](RAG_Reference.md#s001); [S005 — Production_and_Captions_Mapping.md](RAG_Reference.md#s005); [S003 — AGENTS.md](RAG_Reference.md#s003).
 
 **Relevant source sections:** Sections 1, 5–7; caption mapping: Capture and preparation.
 
@@ -143,7 +143,7 @@ The activities below are an editorial application of the repository, not a claim
 
 **Production stage:** Editing and access-service management
 
-**Retrieve:** [S001 — Accessible_TV_Content_Guidance_for_Production_Teams.md](RAG_Reference.md#s001); [S004 — Cross-Repository Accessibility Mapping: Production Management and Audio Description](RAG_Reference.md#s004); [S005 — Cross-Repository Accessibility Mapping: Production Management and Closed Caption Subtitles](RAG_Reference.md#s005).
+**Retrieve:** [S001 — Accessible_TV_Content_Guidance_for_Production_Teams.md](RAG_Reference.md#s001); [S004 — Production_and_Audio_Description_Mapping.md](RAG_Reference.md#s004); [S005 — Production_and_Captions_Mapping.md](RAG_Reference.md#s005).
 
 **Relevant source sections:** Sections 1–3 and 7; both cross-repository mappings.
 
@@ -169,7 +169,7 @@ The activities below are an editorial application of the repository, not a claim
 
 **Production stage:** Production review and acceptance planning
 
-**Retrieve:** [S001 — Accessible_TV_Content_Guidance_for_Production_Teams.md](RAG_Reference.md#s001); [S003 — AGENTS.md](RAG_Reference.md#s003); [S004 — Cross-Repository Accessibility Mapping: Production Management and Audio Description](RAG_Reference.md#s004); [S005 — Cross-Repository Accessibility Mapping: Production Management and Closed Caption Subtitles](RAG_Reference.md#s005).
+**Retrieve:** [S001 — Accessible_TV_Content_Guidance_for_Production_Teams.md](RAG_Reference.md#s001); [S003 — AGENTS.md](RAG_Reference.md#s003); [S004 — Production_and_Audio_Description_Mapping.md](RAG_Reference.md#s004); [S005 — Production_and_Captions_Mapping.md](RAG_Reference.md#s005).
 
 **Relevant source sections:** Section 8; mapping gate evidence; AGENTS: Review and gates.
 
@@ -185,7 +185,7 @@ The activities below are an editorial application of the repository, not a claim
 
 ### Example prompt 1
 
-> Using the RAG, plan QA and audience evaluation for [production variants]. Separate specialist access-service review, technical checks and disabled audience experience; define evidence, scope and unresolved issues. Use the production source’s verified/failed/unresolved/not applicable meanings carefully, with recorded rationale. Leave unperformed checks unresolved rather than passed.
+> Using the RAG, plan QA and audience evaluation for [production variants]. Separate specialist access-service review, technical checks and disabled audience experience; define evidence, scope and unresolved issues. Use verified, failed, unknown, not tested and not applicable with their scoped meanings and rationale. Keep unresolved decisions separate from evaluation results. Leave unperformed checks not tested rather than passed.
 
 ### Example prompt 2
 
@@ -221,7 +221,7 @@ The activities below are an editorial application of the repository, not a claim
 
 **Production stage:** Production maintenance and redelivery
 
-**Retrieve:** [S001 — Accessible_TV_Content_Guidance_for_Production_Teams.md](RAG_Reference.md#s001); [S004 — Cross-Repository Accessibility Mapping: Production Management and Audio Description](RAG_Reference.md#s004); [S005 — Cross-Repository Accessibility Mapping: Production Management and Closed Caption Subtitles](RAG_Reference.md#s005); [S003 — AGENTS.md](RAG_Reference.md#s003).
+**Retrieve:** [S001 — Accessible_TV_Content_Guidance_for_Production_Teams.md](RAG_Reference.md#s001); [S004 — Production_and_Audio_Description_Mapping.md](RAG_Reference.md#s004); [S005 — Production_and_Captions_Mapping.md](RAG_Reference.md#s005); [S003 — AGENTS.md](RAG_Reference.md#s003).
 
 **Relevant source sections:** Section 7; cross-repository archive/redelivery stages; AGENTS: archive.
 

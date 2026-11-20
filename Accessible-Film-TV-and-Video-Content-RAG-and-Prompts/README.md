@@ -1,5 +1,7 @@
-# Accessible Film, TV and Video Content Production Management — content creation and production resources
+# Production activities and retrieval navigation
 
-Start with [Content creation and production activities and prompts](Content_Creation_and_Production_Activities_and_Prompts.md) for 8 activities and 16 example prompts. Attach [RAG reference](RAG_Reference.md) when using a prompt. Consult [Source coverage](Source_Coverage.md) for the pinned revision, complete inventory, hashes and heading lookup. `Sources/` contains every original repository file with its directory structure and rights notices.
+Start with [eight activities and 16 illustrative prompts](Content_Creation_and_Production_Activities_and_Prompts.md). Use the [RAG navigation index](RAG_Reference.md) to retrieve the relevant maintained documents and read [source coverage](Source_Coverage.md) for provenance boundaries.
 
-Snapshot: `9f9a157270f9087c59b2ab17b54fc166a76d9d7e` · Prepared 8 November 2026. This is a downloadable content-and-production resource pack; it does not change the GitHub repository or run the proposed evaluations.
+The index is not a copy of the sources. Supply or retrieve the relevant owning files alongside it; do not assume an attachment's links were followed. Use the same actual Git revision for related local documents and record it in consequential outputs.
+
+The prompts support drafting and review. They do not run evaluations, grant authority, authenticate approval or configure a workflow. The original repository documentation is [MIT-licensed](../LICENSE); see [rights and status](../NOTICE.md).

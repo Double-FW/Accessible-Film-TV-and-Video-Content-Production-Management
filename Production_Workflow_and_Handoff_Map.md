@@ -2,11 +2,11 @@
 
 This is an editorial coordination guide built from the following five sources, not an adopted production specification. It helps teams keep meaning and access consistent across formats while leaving specialist and release decisions with competent people.
 
-https://github.com/Double-FW/Closed-Caption-Subtitles
-https://github.com/Double-FW/Audio-Descriptions
-https://github.com/Double-FW/Accessible-Film-TV-and-Video-Content-Production-Management
-https://github.com/Double-FW/Accessible-Email-Design
-https://github.com/Double-FW/Accessible_Digital_and_Printed_Documents
+- [Closed Caption Subtitles](https://github.com/Double-FW/Closed-Caption-Subtitles)
+- [Audio Descriptions](https://github.com/Double-FW/Audio-Descriptions)
+- [Film, TV and Video Production Management](https://github.com/Double-FW/Accessible-Film-TV-and-Video-Content-Production-Management)
+- [Accessible Email Design](https://github.com/Double-FW/Accessible-Email-Design)
+- [Accessible Digital and Printed Documents](https://github.com/Double-FW/Accessible_Digital_and_Printed_Documents)
 
 
 ## Choose the source for the work
@@ -22,7 +22,7 @@ https://github.com/Double-FW/Accessible_Digital_and_Printed_Documents
 | How should graphics, captions and signing coexist? | Production management | CCS for positioning; documents for supplementary data explanations | Coordinated framing/graphics/track specification |
 | How are release and actual audience access evidenced? | The owning specialist guide plus production management | All affected output formats | Version-specific QA, human decision and published-path evidence |
 
-The video repository’s two existing production/AD and production/CCS mapping files are retained in full, including their extensionless source filenames. They support routing and dependencies; the current specialist source remains the place to inspect detailed authoring requirements.
+Use the [production/AD mapping](Production_and_Audio_Description_Mapping.md) and [production/caption mapping](Production_and_Captions_Mapping.md) for dependencies. Both are maintained Markdown documents; current specialist sources own detailed authoring requirements.
 
 ## Work from meaning to real delivered outputs
 
@@ -59,7 +59,7 @@ Use the supplied AD commissioning, cue, audit and release templates where they f
 
 ## Keep evidence types distinct
 
-- Source completeness checks establish that this pack preserves the retrieved guidance; they do not establish accessibility of a production.
+- Source inventory and integrity checks establish only the stated repository snapshot and files checked; they do not establish accessibility of a production.
 - A semantic/structural check and a visual proof answer different questions. A readable PDF image does not demonstrate reading order or tags.
 - Email code inspection does not establish actual client, MIME, assistive-technology or sending behaviour.
 - A caption file validator does not verify speech fidelity, meaningful sound, pacing, presentation or player operation.
