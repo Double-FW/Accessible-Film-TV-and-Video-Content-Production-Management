@@ -98,4 +98,32 @@ class MediaExport(unittest.TestCase):
         with self.assertRaises(ValueError) as raised:publish(self.output,token,source_root=self.root,check_public=lambda:None)
         self.assertNotIn(token.strip(),str(raised.exception))
 
+class PublicSourceCheck(unittest.TestCase):
+    def test_uses_workflow_github_token_for_github_request(self):
+        from unittest.mock import patch
+        from io import BytesIO
+        from media_hf_common import public_source
+        info={'full_name':SOURCE,'private':False,'visibility':'public'}
+        with patch.dict('os.environ',{'GITHUB_TOKEN':'synthetic-github-token'}),patch('urllib.request.urlopen',return_value=BytesIO(json.dumps(info).encode())) as call:
+            public_source()
+            request=call.call_args.args[0]
+            self.assertEqual('https://api.github.com/repos/'+SOURCE,request.full_url)
+            self.assertEqual('Bearer synthetic-github-token',request.get_header('Authorization'))
+    def test_http_error_identifies_source_check_without_sensitive_body(self):
+        from unittest.mock import patch
+        from io import BytesIO
+        from urllib.error import HTTPError
+        from media_hf_common import public_source
+        failure=HTTPError('https://api.github.com/repos/'+SOURCE,403,'sensitive response detail',{},BytesIO(b'private response body'))
+        with patch('urllib.request.urlopen',side_effect=failure):
+            with self.assertRaisesRegex(ValueError,r'Public GitHub source verification failed \(HTTP 403\)') as raised:public_source()
+        self.assertNotIn('sensitive',str(raised.exception));self.assertNotIn('private response body',str(raised.exception))
+    def test_authenticated_private_source_is_still_blocked(self):
+        from unittest.mock import patch
+        from io import BytesIO
+        from media_hf_common import public_source
+        info={'full_name':SOURCE,'private':True,'visibility':'private'}
+        with patch.dict('os.environ',{'GITHUB_TOKEN':'synthetic-github-token'}),patch('urllib.request.urlopen',return_value=BytesIO(json.dumps(info).encode())):
+            with self.assertRaisesRegex(ValueError,'approved public'):public_source()
+
 if __name__=='__main__':unittest.main()

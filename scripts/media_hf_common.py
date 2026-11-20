@@ -1,9 +1,11 @@
 """Committed-source and fixed-destination rules for media production publication."""
 import hashlib
 import json
+import os
 from pathlib import Path, PurePosixPath
 import subprocess
 import urllib.request
+import urllib.error
 
 ROOT=Path(__file__).resolve().parents[1]
 SOURCE='Double-FW/Accessible-Film-TV-and-Video-Content-Production-Management'
@@ -45,6 +47,14 @@ def read_sources(root=ROOT):
     return cfg,texts,manifest
 
 def public_source():
-    request=urllib.request.Request('https://api.github.com/repos/'+SOURCE,headers={'User-Agent':'Double-FW-media-dataset-sync'})
-    with urllib.request.urlopen(request,timeout=30) as response:info=json.load(response)
+    headers={'User-Agent':'Double-FW-media-dataset-sync','Accept':'application/vnd.github+json'}
+    token=os.environ.get('GITHUB_TOKEN')
+    if token:headers['Authorization']='Bearer '+token
+    request=urllib.request.Request('https://api.github.com/repos/'+SOURCE,headers=headers)
+    try:
+        with urllib.request.urlopen(request,timeout=30) as response:info=json.load(response)
+    except urllib.error.HTTPError as e:
+        raise ValueError('Public GitHub source verification failed (HTTP '+str(e.code)+'). Check the workflow GitHub token and API availability; no Hugging Face write was attempted.') from None
+    except urllib.error.URLError:
+        raise ValueError('Public GitHub source verification could not reach the API; no Hugging Face write was attempted.') from None
     if info.get('full_name')!=SOURCE or info.get('private') is not False or info.get('visibility')!='public':raise ValueError('Publishing requires the approved public GitHub source.')
